@@ -48,7 +48,7 @@ It just needs a basic php7.3++ Environment.
 
 ## Toggle a plug (relay) by alias (name)
 ```php
-    $myTPLink->togglePlugByName('Heizungslicht');
+    $myTPLink->togglePlugByName(<PlugAliasName>);
 ```
 
 ## Set a plug state 
@@ -64,6 +64,11 @@ It just needs a basic php7.3++ Environment.
 (with deviceId and appServerUrl as above)
 ```php
     $myTPLink->getPlugStateBool($deviceId, $appServerUrl);
+```
+# How I use it
+I put a basic constructor and toggle command in a file on my webserver and toggle it via a JS bookmark:
+```javascript
+   javascript:(function () { window.open('http://localhost/tplink/myTPLink.php','_blank');})();
 ```
 
 # More Features?
