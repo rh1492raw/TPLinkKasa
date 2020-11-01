@@ -3,6 +3,7 @@
 Author: rh1492raw@gmail.com
 License: none
 [Relates to / Inspired by: https://github.com/TheHackLife/TPLink-hs100-PHP-REST-API/blob/master/tplink.class.php](https://github.com/TheHackLife/TPLink-hs100-PHP-REST-API/blob/master/tplink.class.php)
+My thanks to to [Joan "TheHackLife" Manual (https://github.com/TheHackLife)] for providing the base logic (API reverse engineering) of this package
 
 
 ## Pre-requisites
